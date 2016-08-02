@@ -75,23 +75,37 @@ li .nav-li{
 }
 /*navigation bar completed*/
 .left-area-1 ul{
-    background-color:green;
+   
       height:15.625em;
       width: 13.625em;
       display: inline-block;
-      float: left;
+      float:left;
+      border-bottom-left-radius: 0.25em;
+      border-bottom-right-radius: 0.25em;
+      
+      
+      
 
 }
  .left-area-1 .left-area-ul li{
     list-style-type: none;
     border:0.0625em solid lightgray ;
-    padding: 0.6625em 1.5625em 0.6625em 1.25em;
-    color:gray;
+    padding: 0.8em 1.5625em 0.8em 1.25em;
+    color:#333;;
     font-size:14;
+    border-top:0em solid ;
+    font-size:0.875em
+    
 }
 .gray-list-item{
-    background-color:#f1f1f1;
+    background-color: #f5f5f5;
     color:black !important;
+    border-top:0.0625em solid lightgray !important;
+    border-top-left-radius: 0.25em;
+    border-top-right-radius: 0.25em;
+    border: 0.0625em solid lightgray;
+    font-size:1em !important;
+    
 }
 .left-area-1 ul{
     padding-left:1.875em;
@@ -99,7 +113,7 @@ li .nav-li{
 }
 /*left area-1 completed*/
 .central-area-1{
-    background-color:green;
+ 
     width:30em;
     height:19.3em;
     display:inline-block;
@@ -120,10 +134,18 @@ li .nav-li{
 .x{
     color:#196319;
     font-weight: bold;
+    display: inline-block;
+    margin-left:2.5em;
+    
 }
+.x a:visited, .x a:link{
+    color:green;
+}
+
 .para-1{
     font-size:0.85em;
    padding:0.125em 0em 0.0625em 2em;
+   line-height: 1.5em;
 }
 .para-1 h1{font-weight: 200;
            padding-top:1em;
@@ -170,11 +192,11 @@ hr{width:25em;
 /*central area-1 completed*/
 .login-box{
     display: inline-block;
-    background-color:green;
+
     width:13.45em;
     height: 13em;
     margin-top: 1em;
-    margin-left: 2.49em;
+    margin-left: 1.5em;
     border:1px solid #d0cdcd;
     border-top-left-radius: 0.29em;
     border-top-right-radius: 0.25em;
@@ -210,10 +232,93 @@ form{
 }
 /*right area completed*/
 .sec-right{display: inline-block;
-            width:8.49em;
-            height: 5em;
-            background-color:lightblue;
+            width:13.7em;
+            height: 20em;
             margin-right:9em;
-            position: relative;
-            
+            margin-left:1.8em;
+            position: initial;
+            margin-top:-2em;
+            border-radius: 0.25em;
+}
+.dramatically{
+    width:13.7em;
+    height:1.8em;
+    background-color: gray;
+    text-align: center;
+    padding-top:0.8em;
+    border-top-left-radius: 0.25em;
+    border-top-right-radius: 0.25em;
+    background-color: #f5f5f5;
+    
+    border: 0.0625em solid lightgray;
+}
+.div-para{
+     width:13.69em;
+    padding:1em;
+    line-height: 1.5em;
+    margin-top:0em;
+    border: 0.0625em solid lightgray;
+    height: 18em;
+    border-top: 0em solid ;
+    border-bottom-left-radius: 0.25em;
+    border-bottom-right-radius: 0.25em;
+    color:#333;
+    font-size:0.875em
+}
+.third-button{
+    margin:0.8em 1em 1em -0.6em;
+}
+/*second left area completed*/
+.central-area-2{
+    margin-left:-9em;
+    width:30em;
+    height:19.3em;
+    display:inline-block;
+    background-color:lightblue;
+}
+.para-2{
+    font-size:0.85em;
+   padding:0em 0em 0em 2em;
+   line-height: 1.5em;
+}
+.para-2 h1{font-weight: 200;
+   
+}
+.para-button-2{
+    margin: 0.5em 0.3125em 0em 2.125em;
+    padding:   0.4375em 0.4375em 0.4375em 0.4375em;
+    background-color:white;
+    color:gray;
+    border-radius: 0.375em;
+   
+}
+.but-link-2{
+    margin-left:0.2em;
+    margin-top:0.07em;
+    
+}
+.but-link-2 .comment-share-2 a{
+    color:#337ab7;
+    }
+.but-link-2 .comment-share-2 li,.but-link-2 .comment-share-2{
+    display: inline;
+    padding-right:1em;
+}
+.comment-share-2 {
+     height: 1.3em !important;
+     width:26.9em !important;
+     margin-left:0em;
+}
+.but-link-2 .comment-share-2 .tag-2{
+ 
+    margin:0.0625em ;
+    color:white;
+    padding:0.125em 0.25em;
+    background-color:gray;
+    border:0em;
+     border-radius: 0.25em;
+    border:0.0625em solid gray;
+    font-size: 0.75em;
+}
+hr{width:25em;
 }

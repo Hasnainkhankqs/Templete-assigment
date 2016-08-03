@@ -74,6 +74,9 @@ li .nav-li{
     padding-top:0.5em;
 }
 /*navigation bar completed*/
+.left-area-1{
+    float:left;
+}
 .left-area-1 ul{
    
       height:15.625em;
@@ -187,12 +190,13 @@ li .nav-li{
     border:0.0625em solid gray;
     font-size: 0.75em;
 }
-hr{width:25em;
+hr{width: 28em;
+margin-left:1em;
 }
 /*central area-1 completed*/
 .login-box{
     display: inline-block;
-
+    clear:both;
     width:13.45em;
     height: 13em;
     margin-top: 1em;
@@ -231,7 +235,7 @@ form{
     margin-left:0.8em;
 }
 /*right area completed*/
-.sec-right{display: inline-block;
+.sec-left{display: inline-block;
             width:13.7em;
             height: 20em;
             margin-right:9em;
@@ -239,6 +243,7 @@ form{
             position: initial;
             margin-top:-2em;
             border-radius: 0.25em;
+             float:left;
 }
 .dramatically{
     width:13.7em;
@@ -270,11 +275,12 @@ form{
 }
 /*second left area completed*/
 .central-area-2{
+   margin-top:3em;
     margin-left:-9em;
     width:30em;
     height:19.3em;
     display:inline-block;
-    background-color:lightblue;
+
 }
 .para-2{
     font-size:0.85em;
@@ -319,6 +325,4 @@ form{
      border-radius: 0.25em;
     border:0.0625em solid gray;
     font-size: 0.75em;
-}
-hr{width:25em;
 }

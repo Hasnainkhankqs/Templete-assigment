@@ -239,7 +239,6 @@ form{
             height: 20em;
             margin-right:9em;
             margin-left:1.8em;
-            position: initial;
             margin-top:-2em;
             border-radius: 0.25em;
              float:left;
@@ -344,7 +343,7 @@ form{
     border-top-right-radius:0.25em;
     padding:0.8em 0.8em 0.8em 1.5em;}
     .green{
-        background-color:green;
+        background-color:#5cb85c;
         text-align: center;
         font-size: 0.75em;
         color:white;
@@ -366,7 +365,7 @@ form{
         padding-left:0.2em;
     }
     .orange{
-        background-color:orange;
+        background-color:#f0ad4e;
         text-align: left;
         font-size: 0.75em;
         color:white;
@@ -378,7 +377,7 @@ form{
         width:7em;
     }
     .red{
-        background-color:red;
+        background-color:#d9534f;
         text-align: left;
         font-size: 0.75em;
         color:white;
@@ -396,3 +395,32 @@ form{
     border-radius: 0.25em;
     }
     /*second-right area completed*/
+    .third-left{
+            display: inline-block;
+            width:13.7em;
+            height:1em;
+            
+            margin-right:9em;
+            margin-left:1.8em;
+            margin-top:-2em;
+            border-radius: 0.25em;
+             float: left;
+    }
+    .Active-Predomination{
+        width:13.7em;
+    height:1.8em;
+    background-color: gray;
+    text-align: center;
+    padding-top:0.8em;
+    border-top-left-radius: 0.25em;
+    border-top-right-radius: 0.25em;
+    background-color: #f5f5f5;
+    
+    border: 0.0625em solid lightgray;
+    }
+.fifth-button,.sixth-button,.seven-button{
+     padding:   0.4375em 1em 0.4375em 1em;
+    background-color:white;
+    color:#423c3c;
+    margin-left:0.8em;
+}

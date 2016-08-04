@@ -395,19 +395,19 @@ form{
     border-radius: 0.25em;
     }
     /*second-right area completed*/
-    .third-left{
-            display: inline-block;
-            width:13.7em;
-            height:1em;
-            
+    .third-div{
+            width:13.8em;
+            height:18em;
             margin-right:9em;
             margin-left:1.8em;
             margin-top:-2em;
             border-radius: 0.25em;
-             float: left;
+            float:left;
+          margin-bottom: 1em;
+           border: 0.0625em solid lightgray;
     }
     .Active-Predomination{
-        width:13.7em;
+    width:13.8em;
     height:1.8em;
     background-color: gray;
     text-align: center;
@@ -415,12 +415,26 @@ form{
     border-top-left-radius: 0.25em;
     border-top-right-radius: 0.25em;
     background-color: #f5f5f5;
-    
-    border: 0.0625em solid lightgray;
+    border-bottom:0.0625em solid lightgray;
+    border
     }
 .fifth-button,.sixth-button,.seven-button{
      padding:   0.4375em 1em 0.4375em 1em;
     background-color:white;
     color:#423c3c;
     margin-left:0.8em;
+}
+.div-para-3{
+     width:13.69em;
+    padding:1em;
+    line-height: 1.5em;;
+    border-top: 0em solid ;
+    color:#333;
+    font-size:0.875em
+}
+.div-third-buttons{
+    padding:   0.4em 1em 0.4em 1em;
+    background-color:white;
+    color:#423c3c;
+    margin:0em;
 }

@@ -512,7 +512,7 @@ form{
 .img-radius{
     border-radius:0.25em;
 }
-input:hover{
+.but:hover{
     background-color:lightgray;
 }
 /*Third right area completed*/
@@ -526,8 +526,8 @@ input:hover{
 }
 .span-1,.span-2,.span-3,.span-4{
     margin-left: 2em;
-    width:15em;
-    height:11em;
+    width:16em;
+     background-color:lightblue;
     display:inline-block;
     font-size:0.9em;
 }
@@ -587,4 +587,16 @@ color:#337ab7;
 ul .comments a:hover{
 text-decoration: underline;
 color:#12558e; 
+}
+m{
+    font-size: 1.8em;
+    font-family: serif;
+    font-weight: 600;
+}
+j{
+    font-size: 1em;
+    font-family: serif;
+}
+k{
+    letter-spacing: -0.3em;
 }

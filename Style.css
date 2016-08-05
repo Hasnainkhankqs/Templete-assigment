@@ -397,10 +397,10 @@ form{
     /*second-right area completed*/
     .third-div{
             width:13.8em;
-            height:18em;
+            height:16em;
             margin-right:9em;
             margin-left:1.8em;
-            margin-top:-2em;
+            margin-top:-2.5em;
             border-radius: 0.25em;
             float:left;
           margin-bottom: 1em;
@@ -432,9 +432,14 @@ form{
     color:#333;
     font-size:0.875em
 }
-.div-third-buttons{
+.third-buttons{
     padding:   0.4em 1em 0.4em 1em;
     background-color:white;
     color:#423c3c;
     margin:0em;
+    font-size: 1em;
 }
+.marginleft-button{
+    margin-left:-1em;
+}
+/*Third right area completed*/

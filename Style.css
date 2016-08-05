@@ -561,6 +561,7 @@ td:hover{
     border: 0.0625em solid cornflowerblue;
  
 }
+/*Third area completed*/
 .footer:visited{
 color:#337ab7;  
 }
@@ -572,4 +573,15 @@ color:#337ab7;
 }
 .Copyright{
     margin:2em;
+}
+.margin-top{
+    /*margin-top:1em;*/
+    margin-left:9em;
+    font-size: 0.85em;
+    position: relative;
+    top:2em;
+}
+tag ,tag-2 ,.tag-3 ,a:hover{
+text-decoration: underline;
+color:#12558e; 
 }

@@ -449,6 +449,7 @@ form{
     width:30em;
     height:16em;
     display:inline-block;
+    margin-bottom:1em;
 }
 .para-3{
     font-size:0.85em;
@@ -515,3 +516,60 @@ input:hover{
     background-color:lightgray;
 }
 /*Third right area completed*/
+.secondlast{
+    float:left;
+    background-color:#eee;
+    margin-top:1em;
+    margin-left:-15.5em;
+    width:62.7em;
+    height:20em;
+}
+.span-1,.span-2,.span-3,.span-4{
+    margin-left: 2em;
+    width:15em;
+    height:11em;
+    display:inline-block;
+    font-size:0.9em;
+}
+.span-2{
+    width:14em;
+}
+.thirdlast{
+    padding:   0.4em 1em 0.4em 1em;
+    background-color:white;
+    color:#423c3c;
+    font-size: 1em;
+    border-radius:0.25em;
+}
+h2{
+    font-weight: 500;
+    font-size:1.5em;
+}
+.span-4{
+width:15em;
+    float: right;
+}
+td{
+    padding:1.5em; 
+    background-color:#eee; 
+    border-spacing:5px 15px;
+    border: 0.0625em solid lightgray;  
+    width:1em;
+    height:2em; 
+}
+td:hover{
+    border: 0.0625em solid cornflowerblue;
+ 
+}
+.footer:visited{
+color:#337ab7;  
+}
+.footer:link{
+color:#337ab7;  
+}
+.footer:hover{
+    text-decoration: underline;
+}
+.Copyright{
+    margin:2em;
+}

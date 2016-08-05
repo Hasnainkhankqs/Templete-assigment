@@ -527,7 +527,6 @@ form{
 .span-1,.span-2,.span-3,.span-4{
     margin-left: 2em;
     width:16em;
-     background-color:lightblue;
     display:inline-block;
     font-size:0.9em;
 }
@@ -600,3 +599,4 @@ j{
 k{
     letter-spacing: -0.3em;
 }
+/*Completed*/
